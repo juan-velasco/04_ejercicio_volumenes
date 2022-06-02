@@ -8,7 +8,3 @@ services:
       - "8090:5000"
   redis:
     image: "redis:alpine"
-
-
-volumes:
-  db-data:
